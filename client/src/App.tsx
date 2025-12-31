@@ -8,7 +8,7 @@ import LandingPage from "@/pages/LandingPage";
 
 function AppRouter() {
   return (
-    <WouterRouter base="/Wizley">
+    <WouterRouter base="/">
       <Switch>
         <Route path="/" component={LandingPage} />
         <Route component={NotFound} />
